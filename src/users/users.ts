@@ -1,12 +1,17 @@
-import express, { Request, Response, NextFunction } from 'express';
+import express from 'express';
 
 const userRouter = express.Router();
 
-userRouter.post('/login', (req: Request, res: Response) => {
+userRouter.use((req, res, next) => {
+  console.log('Обработчик users');
+  next();
+});
+
+userRouter.post('/login', (req, res) => {
   res.send('login');
 });
 
-userRouter.post('/register', (req: Request, res: Response) => {
+userRouter.post('/register', (req, res) => {
   res.send('register');
 });
 
