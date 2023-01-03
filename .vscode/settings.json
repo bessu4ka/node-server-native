@@ -1,3 +1,9 @@
 {
-  "cSpell.words": ["inversify", "tsbuildinfo"]
+	"cSpell.words": ["inversify", "tsbuildinfo", "tslog", "Volkov"],
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	}
 }
