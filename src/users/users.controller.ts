@@ -9,7 +9,6 @@ import { IUserController } from './users.controller.interface';
 import { UserLoginDto } from './dto/user-logon.dto';
 import { UserRegisterDto } from './dto/user-register.dto';
 import { UserService } from './users.service';
-import { User } from './user.entity';
 import 'reflect-metadata';
 
 @injectable()

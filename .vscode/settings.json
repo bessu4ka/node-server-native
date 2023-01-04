@@ -1,5 +1,5 @@
 {
-	"cSpell.words": ["inversify", "tsbuildinfo", "tslog", "Volkov"],
+	"cSpell.words": ["inversify", "middlewares", "tsbuildinfo", "tslog", "Volkov"],
 	"[typescript]": {
 		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
 	},
